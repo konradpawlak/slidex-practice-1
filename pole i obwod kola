@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cwiczenia_slidex_cd
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double r;
+            Console.WriteLine("Podaj promien r: ");
+            r = Convert.ToDouble(Console.ReadLine());
+            double poleKola = r * r * Math.PI;
+            double obwodKola = 2 * r * Math.PI;
+            Console.WriteLine("Dla podanego promiania obwod kola wynosi: {0:f3}, a jego pole: {1:f3}",obwodKola ,poleKola);
+            Console.ReadKey(true);
+        }
+    }
+}
